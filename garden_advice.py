@@ -4,7 +4,7 @@
 # appropriate advice.
 
 # User input for season
-season = "winter"  # TODO: Replace with input() to allow user interaction.
+season = input("What season would you like advice for? Please only type Summer or Winter").lower()
 
 # Hardcoded plant type for now, will be replaced with user input later
 plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
